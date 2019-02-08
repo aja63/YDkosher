@@ -1,0 +1,30 @@
+body {
+    background-image: url("711.png");
+}
+#body{
+    margin: auto;
+    position: relative;
+    width: 1280px;
+    height: 720px;
+
+}
+#logo{
+    float:left;
+
+}
+
+#img{
+    clear: left;
+    float: left;
+    width: 450px;
+    height: 450px;
+    background-color: red;
+}
+
+#text{
+    float: right;
+    height: 500px;
+}
+#vid{
+    float: bottom;
+}
