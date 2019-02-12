@@ -3,16 +3,10 @@ body{
     padding: 0;
     margin: 0;
 }
-img{
-    max-height: 100%;
-    max-width: 100%;
-}
+
 #main{
     margin: auto;
-    width: 1280px;
-    height: 720px;
     position: relative;
-
     text-align: center;
 }
 
@@ -30,26 +24,27 @@ img{
 }
 
 #imgLinkHolder{
-    width: 720px;
+    width: 1800px;
     height: 340px;
     position: absolute;
     top: 380px;
-    left: 280px;
+   left: 20px;
 
 }
 
 
 
 
-.imgLink{
-    width: 200px;
-    height: 150px;
-    ;
-    float: left;
-    margin: 20px;
+.left{
+  float:left;
 }
 
-
+#foot{
+	position: absolute;
+	bottom: 0;
+	width: 1280px;
+	height: 200px;
+}
 
 #bg{
     width: 100%;
